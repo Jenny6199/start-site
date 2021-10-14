@@ -59,10 +59,6 @@
     .header-href {
         font-weight:normal;
     }
-
-    .container {
-        display: inline-block;
-    }
 }
 
 
@@ -85,7 +81,7 @@
     align-content: center;
 }
 
-.header-foto-box {
+.title-foto-box {
     margin: 50px auto;
 }
 
@@ -95,7 +91,7 @@
 
 .header-text {
     flex-direction: column;
-    max-width: 600px;
+    max-width: 75%;
     font-weight: 300;
     font-size: 24px;
     color: white;
@@ -109,7 +105,7 @@
     padding: 16px;
 }
 
-.header-photo {
+.title-photo {
     width: 200px;
     border: 3px solid grey;
     border-radius: 25px;
@@ -186,10 +182,21 @@
     height: 130px;
     margin: 5px;
     box-shadow: -8px 10px 18px 2px rgb(0 0 0 / 50%);
+    opacity: 0.6;
+}
+
+.title-card {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin: 25px auto;
+    background: linear-gradient(45deg, navy, white);
+    opacity: 1.0;
 }
 
 .card:hover {
     box-shadow: -8px 10px 18px 2px black;
+    opacity: 1.0;
 }
 
 .python-card {
