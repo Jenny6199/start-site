@@ -250,7 +250,7 @@
 }
 
 .row {
-    display: block;
+    display: inline-block;
 }
 
 .comet {
