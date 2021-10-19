@@ -69,10 +69,49 @@
                 <div class="card">
                     <img class="html-card" src="img/html_logo.svg" alt="html-logo">
                 </div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card button-card">
+                    <p>Работа с кнопками</p>
+                    <button class="simple-button" type="submit">Добавить элемент</button>
+                </div>
+                <div class="card form-card">
+                    <p>Работа с формами</p>
+                    <form>
+                        <p>
+                            <input type="text" name="userName" placeholder="Введите имя" size="18" list="namelist"/>
+                        </p>
+                        <p>
+                            <input type="text" name="userPhone" placeholder="Введите адрес" size="18"/>
+                        </p>
+                        <button type="submit" disabled>Отправить</button>
+                        <button type="reset">Отмена</button>
+                    </form>
+                    <datalist id="namelist">
+                        <option value="Maksim" label="admin"></option>
+                        <option value="User1" label="user"></option>
+                        <option value="User2" label="user"></option>
+                    </datalist>
+                </div>
+                <div class="card form-card">
+                    <p>Форма поиска</p>
+                    <input type="search" name="term"/>
+                    <input type="submit" value="Поиск"/>
+                </div>
+                <div class="card form-card">
+                    <form>
+                        <p>
+                            <label for="number">Донат:</label>
+                            <input type="number" list="donat-list" step="1" min="1" max="10" id="donat">
+                        </p>
+                        <p>
+                            <button type="submit">Donat!</button>
+                        </p>
+                    </form>
+                    <datalist id="donat-list">
+                        <option value="1" label="min"></option>
+                        <option value="5" label="medium"></option>
+                        <option value="10" label="max"></option>
+                    </datalist>
+                </div>
             </div>
         </div>
         <div class="footer block" id="footer">   
