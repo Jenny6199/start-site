@@ -17,6 +17,10 @@
     min-height: 200px;
 }
 
+.regblock {
+    padding: 16px;
+}
+
 .wrapper {
     min-height: 89vh;
     flex-grow: 0;
