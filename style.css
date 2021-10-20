@@ -201,13 +201,13 @@ input {
 
 /* CONTENT */
 
-.content {
+.card-field {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    min-height: 50vh;
+    min-height: 15vh;
     background-image: none;
 }
 
@@ -224,6 +224,7 @@ input {
     opacity: 0.6;
 }
 
+
 .title-card {
     width: 100%;
     height: 50%;
@@ -233,20 +234,24 @@ input {
     opacity: 1.0;
 }
 
+
 .card:hover {
     box-shadow: -8px 10px 18px 2px black;
     opacity: 1.0;
 }
+
 
 .python-card {
     width: 90%;
     padding: 25px;
 }
 
+
 .mysql-card {
     width: 57%;
     padding: 16px 65px;
 }
+
 
 .git-card {
     width: 60%;
@@ -260,12 +265,14 @@ input {
     padding-left: 90px;
 }
 
+
 .button-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 .ball {
     width: 200px;
@@ -276,6 +283,26 @@ input {
     box-shadow: 5px 10px 20px rgb(0 0 0 / 30%), -5px -10px 20px rgb(255 255 255 / 50%);
     margin: 30px;
 }
+
+
+.news {
+    width: 100%;
+    height: 25vh;
+    margin: 16px auto;
+    font-size:18px;
+}
+
+.news legend {
+    font-size: 26px;
+    font-weight: bold;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+}
+
+.news p {
+    padding: 10px;
+}
+
 
 
 
