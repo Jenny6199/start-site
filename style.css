@@ -111,6 +111,10 @@ input {
     min-height: 10vh;
 }
 
+.header_2 {
+    background: linear-gradient(45deg, blue, white);
+}
+
 .header-box {
     margin: 0 auto;
     display: flex;
