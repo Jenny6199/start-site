@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Визитная карточка</title>
-    <script src="script_1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="top">
@@ -73,19 +73,26 @@
                 <div class="card">
                     <img class="html-card" src="img/html_logo.svg" alt="html-logo">
                 </div>
+                <div class="card">
+                    <img class="js-card" src="img/js-logo.png" alt="js-logo">
+                </div>
+                <div class="card hide"></div>
+                <div class="card hide"></div>
+                <div class="card hide"></div>
             </div>  
 <!-- Прочий контент-->
                 <div>
                     <fieldset class="news">
                         <legend>Новости сайта</legend>
-                        <p>Последнее обновление сайта <date>07.11.2021</date></p>
-                        <p>В настоящий момент изучаю JavaScript. Помимо учебных задач буду тренироваться на этом сайте, добавлять к нему различное поведение и интерактив.</p>
-                        <p>Продолжаю углублять занания по HTML5/CSS3. Много нового и интересного, буду реализовать навыки на этом сайте по мере освоения материала.</p>
+                        <p>Последнее обновление сайта <date>25.11.2021</date></p>
+                        <p><date>24.11.2021</date> Закончил базовый курс JavaScript. Ознакомился с JQuery. Следующим курсом планируется изучение Django.</p>
+                        <p><date>03.11.2021</date> В настоящий момент изучаю JavaScript. Помимо учебных задач буду тренироваться на этом сайте, добавлять к нему различное поведение и интерактив.</p>
+                        <p><date>18.10.2021</date> Продолжаю углублять занания по HTML5/CSS3. Много нового и интересного, буду реализовать навыки на этом сайте по мере освоения материала.</p>
                     </fieldset>
                 </div>
             </main>
         </div>
-        <div class="footer block" id="footer">   
+        <footer class="footer block" id="footer">   
             <div class="container row">
                 <a class="footer-text" href="#top">Вверх</a>
                 <p class="footer-text"></p>
@@ -98,9 +105,11 @@
                 </p>
                 <p class="footer-text">&copy; 2021</p>
                 <p class="text"></p>
-                <script src="script_2.js"></script>
+
             </div>
-        </div>
+        </footer>
     </div>
+<!-- <script src="script_1.js"></script> -->
+<script src="script_2.js"></script>
 </body>
 </html>

@@ -41,6 +41,23 @@
     margin: 16px;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.no_point {
+    list-style: none;
+    padding: 16px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+
+
 @media  (max-width: 1366px) {
     .menu {
         flex-direction: column;
@@ -267,6 +284,12 @@ input {
     width: 35%;
     padding-top: 12px;
     padding-left: 90px;
+}
+
+.js-card {
+    width: 35%;
+    padding: 10px;
+    margin: 0 80px;
 }
 
 
